@@ -123,6 +123,31 @@ fun ejercicioEnclase() {
 
                 Spacer(modifier = Modifier.height(16.dp))
 
+                Text(
+                    text = "SOBRE MI MATERIA FAVORITA",
+                    fontSize = 12.sp,
+                    color = Color.Gray,
+                    fontWeight = FontWeight.Bold
+                )
+
+                Spacer(modifier = Modifier.height(8.dp))
+
+                Text(
+                    text = "Me apasiona el desarrollo de aplicaciones móviles porque permite crear soluciones reales para las personas.",
+                    fontSize = 14.sp,
+                    color = Color.DarkGray,
+                    textAlign = TextAlign.Center
+                )
+
+                Spacer(modifier = Modifier.weight(1f))
+
+                Button(
+                    onClick = { },
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = RoundedCornerShape(12.dp)
+                ) {
+                    Text("Contactar conmigo")
+                }
             }
         }
     }
